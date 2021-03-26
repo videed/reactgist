@@ -1,0 +1,16 @@
+const Config = {
+    API_URL: 'https://api.github.com/gists/',
+};
+
+// fetch(API_URL)
+//   .then(response => response.json())    // one extra step
+//   .then(data => {
+//     console.log(data)
+//   })
+//   .catch(error => console.error(error));
+
+// GET request using fetch with async/await
+// const response = await fetch('https://api.npms.io/v2/search?q=react');
+// const data = await response.json();
+
+export {};
